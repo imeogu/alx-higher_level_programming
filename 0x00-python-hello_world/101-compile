@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 python3 -m compileall $PYFILE; cp __pycache__/*.pyc "${PYFILE}C"; rm -rf ./__pycache__
+=======
+python3 -m compileall -b $PYFILE
+>>>>>>> ce1f32da5529042a2ebb8d8a3545b39d6b3baae4
