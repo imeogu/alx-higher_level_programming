@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-import py_print
+from sys import stdout
+stdout.write('#pythoniscool\n')
