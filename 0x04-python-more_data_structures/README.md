@@ -1,27 +1,47 @@
 # 0x04. Python - More Data Structures: Set, Dictionary
 
-0. computes the square value of all integers of a matrix
+Exploration of sets, dictionaries, reduce, map and filter.
 
-1. replaces all occurrences of an element by another in a new list
+- ##### 0-square_matrix_simple.py
+A function that computes the square value of all integers of a matrix.
 
-2. makes the addition of all unique integers in a list (only one time each integer)
+- ##### 1-search_replace.py
+A function that replaces all occurrences of an element by another in a new list.
 
-3. returns a set of common elements in two sets
+- ##### 2-uniq_add.py
+A function that adds all unique integers in a list (only once for each integer).
+<br>
+prototype `def uniq_add(my_list=[]):`
 
-4. returns a set of all elements present in only one set
+- ##### 3-common_elements.py
+A function that returns a set of common elements in two sets.
 
-5. returns the number of keys in a dictionary
+- ##### 4-only_diff_elements.py
+A function that returns a set of all elements present in only one set.
 
-6. prints a dictionary by ordered keys
+- ##### 5-number_keys.py
+A function that returns the number of keys in a dictionary.
 
-7. replace or add key/value in a dictionary
+- ##### 6-print_sorted_dictionary.py
+A function that prints a dictionary by ordered keys.
 
-8. deletes a key in a dictionary
+- ##### 7-update_dictionary.py
+A function that replaces or adds key/value in a dictionary.
 
-9. returns a new dictionary with all values multiplied by 2
+- ##### 8-simple_delete.py
+A function that deletes a key in a dictionary.
 
-10. returns a key with the biggest integer value
+- ##### 9-multiply_by_2.py
+A function that returns a new dictionary with all values multiplied by 2
 
-11. returns a list with all values multiplied by a number without using any loops
+- ##### 10-best_score.py
+A function that returns a key with the biggest integer value.
 
-12. converts a Roman number into an integer
+- ##### 11-multiply_list_map.py
+A function that returns a list with all values multiplied by a number without
+ using any loops.
+
+- ##### 12-roman_to_int.py
+  - Technical interview preparation:
+  - A function `def roman_to_int(roman_string):` that converts a Roman numeral to
+ an integer.
